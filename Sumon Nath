@@ -1,0 +1,71 @@
+<?php
+
+/*
+THIS CODE FOR Comment: 
+*/
+#THIS CODE FOR Comment: 
+
+//THIS CODE FOR PRINT: 
+$name = "Sumon Nath 1";
+echo $name."<br>";
+
+//THIS CODE FOR Sting Concatinate with PRINT: 
+$f_name = "Sumon";
+$l_name = "Nath";
+echo $f_name." ".$l_name."<br>";
+
+//THIS CODE FOR Check Sting length & PRINT: 
+$name_len = "Sumon Nath";
+echo strlen($name_len)."<br>";
+
+//THIS CODE FOR PRINT Break:
+echo "</br>";
+
+//THIS CODE FOR Sting Reverse & PRINT:
+$name = "Sumon Nath";
+echo strrev($name);
+
+
+$a = 10;
+$b = 2;
+echo "</br>";
+//THIS CODE FOR Summation: 
+echo $a + $b;
+
+//THIS CODE FOR Subtration: 
+echo $a - $b;
+
+//THIS CODE FOR Multiplication: 
+echo $a * $b;
+
+//THIS CODE FOR Divition: 
+echo $a / $b;
+
+//THIS CODE FOR -------: 
+echo $a ** $b;
+
+//THIS CODE FOR -------: 
+echo $a > $b;
+echo $a < $b;
+
+// Comperision Operation
+echo $a >= $b;
+echo $a <= $b;
+echo $a == $b;
+echo $a != $b;
+
+echo "Hello", $a != $b;
+
+$xy = 454.65;
+
+$fixed = (int)$xy;
+
+echo $fixed;
+
+$x = -22.33
+$absulate = abs($x);
+echo $absulate;
+$rounding = (round)$x;
+echo $rounding;
+
+?>
